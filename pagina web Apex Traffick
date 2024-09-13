@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexTraffick - Marketing Digital Efectivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #e8491d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background: #ff6a3c;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1500x400') no-repeat center center/cover;
+            text-align: center;
+            color: white;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #boxes {
+            margin-top: 20px;
+        }
+        #boxes .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #e8491d;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">ApexTraffick</span> Marketing Digital</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Inicio</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Impulsa tu negocio con estrategias de marketing digital efectivas</h1>
+            <p>Aumenta tus ventas y fortalece tu presencia en redes sociales con soluciones personalizadas para tu empresa.</p>
+            <a href="https://wa.me/TU_NUMERO_DE_WHATSAPP" class="button">¡Hablemos ahora!</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Lo que hacemos</h2>
+            <p>En <strong>ApexTraffick</strong>, ayudamos a pequeñas y medianas empresas a maximizar su impacto digital. A través de estrategias innovadoras y personalizadas, optimizamos tu presencia en redes sociales para atraer más clientes y hacer crecer tu marca. Nuestra prioridad es brindarte resultados medibles mientras te acompañamos en cada paso del proceso, educándote sobre cómo funciona el marketing digital para que saques el máximo provecho.</p>
+            <a href="#contact" class="button">Solicita una reunión</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div id="boxes">
+                <div class="box">
+                    <h3>Investigación de Mercados</h3>
+                    <p>Conoce mejor a tu audiencia y ajusta tus campañas para maximizar su efectividad.</p>
+                </div>
+                <div class="box">
+                    <h3>Anuncios Pagados en Redes Sociales</h3>
+                    <p>Generamos campañas altamente segmentadas para aumentar tu visibilidad y conversión.</p>
+                </div>
+                <div class="box">
+                    <h3>Análisis y Optimización de Resultados</h3>
+                    <p>No solo lanzamos campañas; las monitoreamos y optimizamos continuamente para asegurar su éxito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="container">
+            <h2>Nuestro Proceso</h2>
+            <ol>
+                <li><strong>Conoce tu negocio</strong>: Comenzamos con una reunión para entender tus objetivos y necesidades.</li>
+                <li><strong>Estrategia personalizada</strong>: Diseñamos un plan de acción ajustado a tus metas.</li>
+                <li><strong>Ejecución y optimización</strong>: Implementamos y monitoreamos las campañas, ajustando sobre la marcha para obtener mejores resultados.</li>
+            </ol>
+            <a href="#contact" class="button">¡Quiero saber más!</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Hablemos y haz crecer tu negocio</h2>
+            <p>¿Estás listo para llevar tu empresa al siguiente nivel? Contáctanos hoy mismo para obtener una consulta personalizada y descubre cómo <strong>ApexTraffick</strong> puede ayudarte a alcanzar tus metas.</p>
+            <form>
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu email" required>
+                <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                <button type="submit" class="button">Enviar</button>
+            </form>
+            <a href="https://wa.me/TU_NUMERO_DE_WHATSAPP" class="button">Contáctanos vía WhatsApp</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ApexTraffick. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
